@@ -117,7 +117,7 @@ About.propTypes = {
         body: PropTypes.string.isRequired,
         frontmatter: PropTypes.object.isRequired,
       }).isRequired,
-    }).isRequired
+    }).isRequired,
   ).isRequired,
 }
 

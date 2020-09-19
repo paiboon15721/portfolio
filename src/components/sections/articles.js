@@ -130,7 +130,7 @@ const Articles = () => {
         fetch(mediumRssFeed, { headers: { Accept: "application/json" } })
         .then(res => res.json())
         // Feed also contains comments, therefore we filter for articles only
-        .then(data => data.items.filter(item => item.categories.length > 0))
+        .then(data => data.items.filter(item => item.categories.length > 1))
         .then(newArticles => newArticles.slice(0, MAX_ARTICLES))
         .then(articles => setArticles(articles))
         .catch(error => console.log(error))

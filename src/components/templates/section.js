@@ -1,4 +1,3 @@
-
 // SECTION TEMPLATE
 // If you want to add more sections to your page, you can use this component as a template
 
@@ -29,8 +28,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
 // Add more styled components here
 
 const ___Section___ = ({ content }) => {
-
-  // Extract GraphQL data here  
+  // Extract GraphQL data here
   const sectionDetails = content[0].node
 
   return (

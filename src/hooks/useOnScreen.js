@@ -16,7 +16,7 @@ export default (ref, threshold = 0.25) => {
       },
       {
         threshold,
-      }
+      },
     )
     if (element) {
       setTimeout(() => observer.observe(element), 3500)

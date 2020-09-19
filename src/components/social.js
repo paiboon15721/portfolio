@@ -113,7 +113,10 @@ const Social = ({ width, padding, fontSize, fontWeight, withIcon }) => (
           fontSize={fontSize}
           fontWeight={fontWeight}
         >
-          {withIcon ? <Icon name={name} /> : null} {name}
+          {withIcon ? (
+            <Icon name={name === "Resume" ? "External" : name} />
+          ) : null}
+          {name}
         </StyledSocialProfile>
       )
     })}
