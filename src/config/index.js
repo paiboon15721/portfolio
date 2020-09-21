@@ -8,7 +8,7 @@ module.exports = {
   siteLanguage: "en_US",
   siteIcon: "src/content/favicon.png", // Relative to gatsby-config file
 
-  splashScreen: true, // Set this to true if you want to use the splash screen
+  splashScreen: false, // Set this to true if you want to use the splash screen
 
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
