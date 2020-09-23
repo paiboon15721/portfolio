@@ -75,7 +75,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .card {
       width: 16.25rem;
-      height: 12rem;
+      height: 15rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -100,8 +100,8 @@ const StyledContentWrapper = styled(ContentWrapper)`
         font-weight: 700;
       }
       .title {
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
       }
       .date {
         font-size: 0.75rem;
@@ -120,24 +120,28 @@ const Articles = () => {
   const { isIntroDone } = useContext(Context).state
   const [articles, setArticles] = useState()
   const articlesControls = useAnimation()
-  
+
   // Load and display articles after the splashScreen sequence is done
   useEffect(() => {
     const loadArticles = async () => {
       if (isIntroDone) {
-        await articlesControls.start({ opacity: 1, y: 0, transition: { delay: 1 } })
+        await articlesControls.start({
+          opacity: 1,
+          y: 0,
+          transition: { delay: 1 },
+        })
         // MediumRssFeed is set in config.js
         fetch(mediumRssFeed, { headers: { Accept: "application/json" } })
-        .then(res => res.json())
-        // Feed also contains comments, therefore we filter for articles only
-        .then(data => data.items.filter(item => item.categories.length > 1))
-        .then(newArticles => newArticles.slice(0, MAX_ARTICLES))
-        .then(articles => setArticles(articles))
-        .catch(error => console.log(error))
+          .then(res => res.json())
+          // Feed also contains comments, therefore we filter for articles only
+          .then(data => data.items.filter(item => item.categories.length > 1))
+          .then(newArticles => newArticles.slice(0, MAX_ARTICLES))
+          .then(articles => setArticles(articles))
+          .catch(error => console.log(error))
       }
     }
     loadArticles()
-  },[isIntroDone, articlesControls, MAX_ARTICLES])
+  }, [isIntroDone, articlesControls, MAX_ARTICLES])
 
   return (
     <StyledSection
@@ -160,34 +164,38 @@ const Articles = () => {
                 >
                   <div className="card">
                     <span className="category">
-                      <Underlining color="tertiary" hoverColor="secondary">
-                        {item.categories[2]}
-                      </Underlining>
+                      {item.title}
+                      {/* <Underlining color="tertiary" hoverColor="secondary">
+                        {item.categories[1]}
+                      </Underlining> */}
                     </span>
-                    <h4 className="title">{item.title}</h4>
+                    {/* <h4 className="title">{item.title}</h4> */}
+                    <img
+                      className="title"
+                      alt="thumbnail"
+                      src={item.thumbnail}
+                      style={{ width: "100%", height: "100px" }}
+                    />
                     <span className="date">{parseDate(item.pubDate)}</span>
                   </div>
                 </a>
               ))
             : [...Array(MAX_ARTICLES)].map((i, key) => (
-              <div className="card" key={key}>
-                <SkeletonLoader 
-                  background="#f2f2f2"
-                  height="1.5rem" 
-                  style={{ marginBottom: ".5rem" }}
-                />
-                <SkeletonLoader 
-                  background="#f2f2f2" 
-                  height="4rem"
-                />
-                <SkeletonLoader 
-                  background="#f2f2f2" 
-                  height=".75rem" 
-                  width="50%" 
-                  style={{ marginTop: ".5rem" }}
-                />
-              </div>
-            ))}
+                <div className="card" key={key}>
+                  <SkeletonLoader
+                    background="#f2f2f2"
+                    height="1.5rem"
+                    style={{ marginBottom: ".5rem" }}
+                  />
+                  <SkeletonLoader background="#f2f2f2" height="4rem" />
+                  <SkeletonLoader
+                    background="#f2f2f2"
+                    height=".75rem"
+                    width="50%"
+                    style={{ marginTop: ".5rem" }}
+                  />
+                </div>
+              ))}
         </div>
       </StyledContentWrapper>
     </StyledSection>
