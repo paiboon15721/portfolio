@@ -3,12 +3,12 @@ module.exports = {
   siteTitle: "Paiboon Auengkongkatong Portfolio",
   siteShortTitle: "Paiboon", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Hi there! I'm Paiboon Auengkongkatong, a fullstack developer, based in bangkok thailand.",
+    "Hi there! I'm Paiboon Auengkongkatong, a fullstack developer based in bangkok, thailand.",
   siteUrl: "https://me.secretsrc.com",
   siteLanguage: "en_US",
   siteIcon: "src/content/favicon.png", // Relative to gatsby-config file
 
-  splashScreen: false, // Set this to true if you want to use the splash screen
+  splashScreen: true, // Set this to true if you want to use the splash screen
 
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
