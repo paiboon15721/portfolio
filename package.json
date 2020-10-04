@@ -53,7 +53,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "rimraf public && gatsby build && gh-pages -d public",
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
