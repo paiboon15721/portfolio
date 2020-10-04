@@ -53,7 +53,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public",
+    "deploy": "gatsby clean && gatsby build && ssh clusterkit \"rm -rf portfolio\" && scp -r public clusterkit:portfolio",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
