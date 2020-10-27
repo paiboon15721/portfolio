@@ -9,3 +9,5 @@ export const onClientEntry = async () => {
     await import(`intersection-observer`)
   }
 }
+
+exports.onServiceWorkerUpdateReady = () => window.location.reload(true)
