@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-export const onClientEntry = async () => {
+exports.onClientEntry = async () => {
   if (typeof IntersectionObserver === `undefined`) {
     await import(`intersection-observer`)
   }
