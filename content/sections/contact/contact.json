@@ -1,0 +1,13 @@
+{
+  "name": "Paiboon Auengkongkatong",
+  "email": "paiboon15721@gmail.com",
+  "description": "Feel free to reach out to me at any time, I am always interested in new stuff!",
+  "image": {
+    "src": "../../images/profile.jpg",
+    "alt": "Profile"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

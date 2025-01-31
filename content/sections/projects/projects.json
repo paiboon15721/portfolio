@@ -1,0 +1,315 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "👨‍💻‍ Side Project",
+      "title": "Grid style poetry editor",
+      "description": "A freestyle text editor allows you to type in any direction and character rotation degree you want.",
+      "tags": ["React.js", "Typescript"],
+      "image": {
+        "src": "../../images/projects/poetry-editor.png",
+        "alt": "Poetry editor",
+        "linkTo": "https://poetry-editor.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/poetry-editor"
+        },
+        {
+          "type": "external",
+          "url": "https://poetry-editor.secretsrc.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "ClusterKit",
+      "description": "ClusterKit main website integrated with Training Management System that customer who needs to training can register directly on the website.",
+      "tags": ["Hugo", "Vue.js", "SCSS"],
+      "image": {
+        "src": "../../images/projects/clusterkit.png",
+        "alt": "ClusterKit",
+        "linkTo": "https://www.clusterkit.co.th/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.clusterkit.co.th/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Training Management System",
+      "description": "The system that powers the ClusterKit website in the training registration part, allows admin to manage instructors, subjects, courses, coupons, promotions, and customers.",
+      "tags": ["React.js", "Node.js", "Koa.js", "MongoDB"],
+      "image": {
+        "src": "../../images/projects/tms.png",
+        "alt": "Training Management System",
+        "linkTo": "https://www.clusterkit.co.th/admin"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.clusterkit.co.th/admin"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "💪 Volunteer",
+      "title": "Com2Kids",
+      "description": "The charity website allows schools that lack computers for teaching to provide information that people who need to donate can send computers directly to the schools.",
+      "tags": ["Next.js", "Node.js", "SCSS", "MongoDB"],
+      "image": {
+        "src": "../../images/projects/com2kids.png",
+        "alt": "Com2Kids",
+        "linkTo": "https://www.com2kids.in.th/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.com2kids.in.th/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "WashXpress",
+      "description": "The WashXpress laundromat franchises website.",
+      "tags": ["Hugo", "SCSS"],
+      "image": {
+        "src": "../../images/projects/washxpress.png",
+        "alt": "WashXpress",
+        "linkTo": "https://www.washxpressth.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/washxpress"
+        },
+        {
+          "type": "external",
+          "url": "https://www.washxpressth.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "24washlaundry",
+      "description": "The 24washlaundry laundromat franchises website.",
+      "tags": ["Hugo", "SCSS"],
+      "image": {
+        "src": "../../images/projects/24washlaundry.png",
+        "alt": "24washlaundry",
+        "linkTo": "https://24washlaundry.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/24washlaundry"
+        },
+        {
+          "type": "external",
+          "url": "https://24washlaundry.secretsrc.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "MOX",
+      "description": "The website and product catalog of MOX Thailand focused on its core business of investigating smart technologies to develop leading-edge products and innovative solutions.",
+      "tags": ["Hugo", "SCSS"],
+      "image": {
+        "src": "../../images/projects/mox.png",
+        "alt": "MOX",
+        "linkTo": "https://mox.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/mox"
+        },
+        {
+          "type": "external",
+          "url": "https://mox.secretsrc.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Fsctsaving",
+      "description": "The financial planner and financial security quiz web application using at the cooperative museum that visitors can save the result by scan QR code.",
+      "tags": ["Next.js", "Node.js", "SCSS"],
+      "image": {
+        "src": "../../images/projects/fsctsaving.png",
+        "alt": "Fsctsaving",
+        "linkTo": "https://www.fsctsaving.com"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.fsctsaving.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Brisuthi",
+      "description": "Minimal style organic skincare website integrated with Order Management System and the line official account that customers can explore the product catalog and register for the member.",
+      "tags": ["Hugo", "Vue.js", "SCSS"],
+      "image": {
+        "src": "../../images/projects/brisuthi.png",
+        "alt": "Brisuthi",
+        "linkTo": "https://www.brisuthi.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/brisuthi"
+        },
+        {
+          "type": "external",
+          "url": "https://www.brisuthi.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Order Management System",
+      "description": "The order management system providing restful API for tracking orders, member registration, and check reward points that can integrate with the third-party application.",
+      "tags": ["React.js", "Node.js", "Koa.js", "MongoDB"],
+      "image": {
+        "src": "../../images/projects/oms.png",
+        "alt": "Order Management System",
+        "linkTo": "https://www.brisuthi.com/admin"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.brisuthi.com/admin"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Arborinci",
+      "description": "The minimal progressive organic skincare website.",
+      "tags": ["Gatsby"],
+      "image": {
+        "src": "../../images/projects/arborinci.png",
+        "alt": "Arborinci",
+        "linkTo": "https://www.arborinci.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/arborinci"
+        },
+        {
+          "type": "external",
+          "url": "https://www.arborinci.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💼‍ Client Project",
+      "title": "Dayone",
+      "description": "The tourist management software as a service landing page.",
+      "tags": ["Hugo", "SCSS"],
+      "image": {
+        "src": "../../images/projects/dayone.png",
+        "alt": "Dayone",
+        "linkTo": "https://dayone.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/dayone"
+        },
+        {
+          "type": "external",
+          "url": "https://dayone.secretsrc.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💻‍ Side Project",
+      "title": "Microservices e-commerce API",
+      "description": "The simple microservices e-commerce platform example.",
+      "tags": ["Docker", "Traefik", "Node.js", "Koa.js", "MongoDB"],
+      "image": {
+        "src": "../../images/projects/microservice.png",
+        "alt": "Microservices e-commerce API",
+        "linkTo": "https://github.com/paiboon15721/neversitup-oms"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/neversitup-oms"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💻‍ Side Project",
+      "title": "The Guardian",
+      "description": "The distraction-free minimal news website powered by The Guardian Open Platform API.",
+      "tags": ["Docker", "Traefik", "Typescript", "Express.js", "Next.js"],
+      "image": {
+        "src": "../../images/projects/guardian.png",
+        "alt": "The Guardian",
+        "linkTo": "https://guardian.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/sevenpeaks-guardian"
+        },
+        {
+          "type": "external",
+          "url": "https://guardian.secretsrc.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "👨‍💻‍ Side Project",
+      "title": "SkillLane Clone",
+      "description": "The SkillLane Frontend Clone.",
+      "tags": ["React.js", "Typescript", "SCSS", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/skilllane.png",
+        "alt": "SkillLane Clone",
+        "linkTo": "https://skilllane.secretsrc.com"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/paiboon15721/skilllane"
+        },
+        {
+          "type": "external",
+          "url": "https://skilllane.secretsrc.com"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "Visit on Github",
+    "url": "https://github.com/paiboon15721"
+  }
+}

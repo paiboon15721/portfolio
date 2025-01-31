@@ -1,0 +1,177 @@
+{
+  "interests": [
+    {
+      "label": "Node.js",
+      "image": {
+        "src": "../../images/icons/node.png",
+        "alt": "Node.js"
+      }
+    },
+    {
+      "label": "Typescript",
+      "image": {
+        "src": "../../images/icons/typescript.png",
+        "alt": "Typescript"
+      }
+    },
+    {
+      "label": "Angular",
+      "image": {
+        "src": "../../images/icons/angular.png",
+        "alt": "Angular"
+      }
+    },
+    {
+      "label": "React.js",
+      "image": {
+        "src": "../../images/icons/react.png",
+        "alt": "React.js"
+      }
+    },
+    {
+      "label": "MongoDB",
+      "image": {
+        "src": "../../images/icons/mongodb.png",
+        "alt": "MongoDB"
+      }
+    },
+    {
+      "label": "Vue.js",
+      "image": {
+        "src": "../../images/icons/vuejs.png",
+        "alt": "Vue.js"
+      }
+    },
+    {
+      "label": "Golang",
+      "image": {
+        "src": "../../images/icons/go.png",
+        "alt": "Golang"
+      }
+    },
+    {
+      "label": "Python",
+      "image": {
+        "src": "../../images/icons/python.png",
+        "alt": "Python"
+      }
+    },
+    {
+      "label": "Next.js",
+      "image": {
+        "src": "../../images/icons/nextjs.png",
+        "alt": "Next.js"
+      }
+    },
+    {
+      "label": "Gatsby",
+      "image": {
+        "src": "../../images/icons/gatsby.png",
+        "alt": "Gatsby"
+      }
+    },
+    {
+      "label": "Hugo",
+      "image": {
+        "src": "../../images/icons/hugo.png",
+        "alt": "Hugo"
+      }
+    },
+    {
+      "label": "SCSS",
+      "image": {
+        "src": "../../images/icons/sass.png",
+        "alt": "SCSS"
+      }
+    },
+    {
+      "label": "Elastic Stack",
+      "image": {
+        "src": "../../images/icons/elastic.png",
+        "alt": "Elastic Stack"
+      }
+    },
+    {
+      "label": "Traefik",
+      "image": {
+        "src": "../../images/icons/traefik.png",
+        "alt": "Traefik"
+      }
+    },
+    {
+      "label": "Nginx",
+      "image": {
+        "src": "../../images/icons/nginx.png",
+        "alt": "Nginx"
+      }
+    },
+    {
+      "label": "Docker",
+      "image": {
+        "src": "../../images/icons/docker.png",
+        "alt": "Docker"
+      }
+    },
+    {
+      "label": "Kubernetes",
+      "image": {
+        "src": "../../images/icons/kubernetes.png",
+        "alt": "Kubernetes"
+      }
+    },
+    {
+      "label": "Grafana",
+      "image": {
+        "src": "../../images/icons/grafana.png",
+        "alt": "Grafana"
+      }
+    },
+    {
+      "label": "Redis",
+      "image": {
+        "src": "../../images/icons/redis.png",
+        "alt": "Redis"
+      }
+    },
+    {
+      "label": "Kafka",
+      "image": {
+        "src": "../../images/icons/kafka.png",
+        "alt": "Kafka"
+      }
+    },
+    {
+      "label": "RabbitMQ",
+      "image": {
+        "src": "../../images/icons/rabbitmq.png",
+        "alt": "RabbitMQ"
+      }
+    },
+    {
+      "label": "Linux Administration",
+      "image": {
+        "src": "../../images/icons/linux.png",
+        "alt": "Linux Administration"
+      }
+    },
+    {
+      "label": "Bigdata Hadoop",
+      "image": {
+        "src": "../../images/icons/hadoop.png",
+        "alt": "Bigdata Hadoop"
+      }
+    },
+    {
+      "label": "Data Engineering",
+      "image": {
+        "src": "../../images/icons/dataengineer.png",
+        "alt": "Data Engineering"
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 11
+  }
+}

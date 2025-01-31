@@ -1,0 +1,22 @@
+{
+  "intro": "Hello",
+  "heroPhoto": {
+    "src": "../../images/profile.jpg",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm Paiboon Auengkongkatong",
+  "subtitle": {
+    "prefix": "I love to build ",
+    "highlight": "awesome software",
+    "suffix": "."
+  },
+  "description": "Software Engineer Based in Bangkok, Thailand.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}
